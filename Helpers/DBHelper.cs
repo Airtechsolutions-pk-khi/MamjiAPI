@@ -11,7 +11,7 @@ namespace WebAPICode.Helpers
     public class DBHelper
     {
         
-        private static readonly string connectionString = "data source=sql5101.site4now.net;initial catalog=db_a77219_MamjiAPI;user id=db_a77219_MamjiAPI_admin;password=Tech@963;";
+        private static readonly string connectionString = "data source=;initial catalog=;user id=;password=;";
         public DataTable GetTableFromSP(string sp, Dictionary<string, object> parametersCollection)
         {
 
